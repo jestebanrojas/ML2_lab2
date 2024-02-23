@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "unsupervised"
+version = "0.1.0"
+description = ""
+authors = ["jestebanrojas <jesteban.rojas@udea.edu.co>"]
+readme = "README.md"
+packages = [{include = "unsupervised"}]
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
